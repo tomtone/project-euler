@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tom
- * Date: 06.02.2015
- * Time: 18:59
- */
 $start = microtime(true);
 $maxPalindrome = 0;
 $min = 100;

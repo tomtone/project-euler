@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tom
- * Date: 06.02.2015
- * Time: 19:51
- */
 $start = microtime(true);
 function is_prim($primetest)
 {

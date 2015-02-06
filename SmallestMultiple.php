@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tom
- * Date: 06.02.2015
- * Time: 19:32
- */
 
 $i = 20;
 $start = microtime(true);

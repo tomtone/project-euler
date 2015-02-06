@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tom
- * Date: 06.02.2015
- * Time: 19:47
- */
 $start = microtime(true);
 for($i = 1; $i <= 100; $i++){
     $squareSum += pow($i, 2);
