@@ -18,4 +18,4 @@ times and memory usages are based on the final run
 | 13 | 49 ms | 2.25Mb |
 | 14 | 1.08 minutes | 3.00Mb |
 | 15 |  |  |
-| 15 | 47 ms | 2.25Mb |
+| 16 | 47 ms | 2.25Mb |
