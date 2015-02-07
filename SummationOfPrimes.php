@@ -1,5 +1,5 @@
 <?php
-require "Helper/PrimeStuff.php";
+require_once "Helper/PrimeStuff.php";
 class SummationOfPrimes extends PrimeStuff{
 
     public function sumPrimesBelowValue($maxValue)

@@ -1,5 +1,5 @@
 <?php
-require "Helper/PrimeStuff.php";
+require_once "Helper/PrimeStuff.php";
 class LargesPrimeFactor{
 
     public function getLargestPrimeFactor($number)
