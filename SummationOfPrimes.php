@@ -36,4 +36,6 @@ function sumPrimes($limit) {
     }
     return array_sum($primes);
 }
-echo sumPrimes(2000000);
+$start = microtime(true);
+echo sumPrimes(2000000) . "\n";
+echo microtime(true) - $start.' Sekunden verbraucht';

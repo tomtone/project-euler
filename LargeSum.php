@@ -105,11 +105,12 @@ $numbers = <<<NUMBER
 NUMBER;
 
 $sum = 0;
-
+$start = microtime(true);
 $lines = explode("\r\n", $numbers);
 
 foreach($lines as $number) {
     $sum += $number;
 }
 $sum = substr($sum, 0, 11);
-echo $sum;
+echo $sum . "\n";
+echo microtime(true) - $start.' Sekunden verbraucht';
