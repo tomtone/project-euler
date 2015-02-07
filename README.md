@@ -1,5 +1,5 @@
-# project-euler Results
-Times and Memory Usages are based on the final run
+# project-euler results
+times and memory usages are based on the final run
 
 | Problem | Time | Memory |
 | ---- | ---- | ---- |
