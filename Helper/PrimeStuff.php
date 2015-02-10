@@ -10,7 +10,14 @@ class PrimeStuff{
 
     public static function isPrime($number)
     {
-        for ($i = $number - 1; $i >= 2; $i--) {
+        if($number == 2 || $number == 3 || $number == 5 || $number == 7){
+            return true;
+        }
+        if($number == 1 || $number%2 == 0){
+            return false;
+        }
+        $sqrt = sqrt($number);
+        for ($i = 3; $i <= $sqrt; $i+=2) {
             if ($number % $i === 0) {
                 return false;
             }
